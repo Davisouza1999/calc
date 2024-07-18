@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.corpo{
+    width:300px;
+    height: 400px;
+    background-color: black;
+   margin-bottom: -50%;
+   border-radius: 5px;
+   overflow: hidden;
+   
+  
+   
+}
+
+.corpo .display{
+    width: 100%;
+    height: 80px;
+    background-color:;
+    align-items: center;
+    justify-items:center ;
+    justify-content: flex-end;
+    display: flex;
+    padding: 10px;
+}
+.corpo .display .display_calc{
+    color: aliceblue;
+    font-size: 30pt;
+}
+.btn_nubox{
+    width: 750%;
+    height: 90%;
+    
+
+    
+}
+button{
+    width: 75px;
+    height: 80px;
+    background: none;
+    font-size: 30pt;
+    position: relative;
+    color: blue;
+    transition: .5s;
+    
+    
+}
+
+#igual{
+    width: 148px;
+   
+}
+
+.btn_box{
+    display: flex;
+}
+.optbn {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+button:hover{
+    background-color: darkgray;
+    color: aliceblue;
+}
+
